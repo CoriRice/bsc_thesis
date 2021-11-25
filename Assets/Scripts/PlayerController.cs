@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     //Variables
     [SerializeField] private float moveSpeed;
-    [SerializeField] private float walkSpeed = 1;
-    [SerializeField] private float runSpeed = 5;
+    [SerializeField] private float walkSpeed;
+    [SerializeField] private float runSpeed;
 
     private Vector3 moveDirection;
     private Vector3 velocity;
@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float gravity;
 
-    [SerializeField] private float jumpHeight = 2;
+    [SerializeField] private float jumpHeight;
     
     private Vector3 movementDirection;
     private Vector3 movementPerSecond;
@@ -56,7 +56,9 @@ public class PlayerController : MonoBehaviour
 
         //----------------------------------------------------------
 
-        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
+        Vector3 position = transform.position;
+        position.y -= 0.385f;
+        isGrounded = Physics.CheckSphere(position, groundCheckDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
         {

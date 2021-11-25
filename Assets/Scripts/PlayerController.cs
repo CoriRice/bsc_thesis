@@ -55,10 +55,8 @@ public class PlayerController : MonoBehaviour
             catDirection.rotation = Quaternion.LookRotation(moveDirection);
 
         //----------------------------------------------------------
-
-        Vector3 position = transform.position;
-        position.y -= 0.385f;
-        isGrounded = Physics.CheckSphere(position, groundCheckDistance, groundMask);
+        
+        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
         {

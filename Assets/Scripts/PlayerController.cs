@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float runSpeed;
 
     private Vector3 moveDirection;
-    private Vector3 velocity;
+    private Vector3 velocity = new Vector3(0f,0f,0f);
 
     [SerializeField] private float gravity;
     [SerializeField] private float jumpHeight;
@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
 
     private void Idle()
     {
-        anim.SetFloat("Speed", 0);
+        anim.SetFloat("Speed", 0f);
     }
 
     private void Walk()

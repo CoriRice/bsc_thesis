@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private static PlayerController _instance;
+    public static PlayerController Instance
+    {
+        get
+        {
+            if (_instance == null) Debug.LogError("Player is null");
+            return _instance;
+        } 
+    }
+    
     //Variables
     [SerializeField] private float moveSpeed;
     [SerializeField] private float walkSpeed;
@@ -12,53 +22,46 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveDirection;
     private Vector3 velocity;
 
-    [SerializeField] private bool isGrounded;
-    [SerializeField] private float groundCheckDistance;
-    [SerializeField] private LayerMask groundMask;
     [SerializeField] private float gravity;
-
     [SerializeField] private float jumpHeight;
-    
-    private Vector3 movementDirection;
-    private Vector3 movementPerSecond;
 
+    [SerializeField] private int collectibles;
+    
     //References
     private CharacterController controller;
     private Animator anim;
     private Transform catDirection;
-    
+
+    void Awake()
+    {
+        _instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         catDirection = this.transform.GetChild(0).transform;
+
+        collectibles = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerMovement();
+        UIManager.Instance.UpdateCoinText(collectibles);
     }
 
-    void calcuateNewMovementVector()
-    {
-        movementDirection = new Vector3(Random.Range(-1.0f, 1.0f), 0, Random.Range(-1.0f, 1.0f)).normalized;
-        movementPerSecond = movementDirection * moveSpeed;
-    }
-
+    
     void PlayerMovement()
     {
-        calcuateNewMovementVector();
-        
         if(moveDirection != Vector3.zero)
             catDirection.rotation = Quaternion.LookRotation(moveDirection);
 
         //----------------------------------------------------------
-        
-        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
 
-        if (isGrounded && velocity.y < 0)
+        if (controller.isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
 
@@ -69,7 +72,7 @@ public class PlayerController : MonoBehaviour
 
         moveDirection = new Vector3(hor, 0, ver);
 
-        if(isGrounded)
+        if(controller.isGrounded)
         {
             if (moveDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift))
             {
@@ -125,5 +128,10 @@ public class PlayerController : MonoBehaviour
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         anim.SetFloat("Speed", 0.79f);
+    }
+
+    public void AddCollectible()
+    {
+        collectibles++;
     }
 }

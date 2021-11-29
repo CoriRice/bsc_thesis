@@ -26,6 +26,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpHeight;
 
     [SerializeField] private int collectibles;
+    [SerializeField] private int foodPoints;
+    [SerializeField] private int startFood;
     
     //References
     private CharacterController controller;

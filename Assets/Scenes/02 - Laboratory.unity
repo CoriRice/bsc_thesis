@@ -13245,7 +13245,7 @@ MonoBehaviour:
   walkSpeed: 1
   runSpeed: 3.5
   gravity: -9.81
-  jumpHeight: 2.5
+  jumpHeight: 1.5
   collectibles: 0
   centerOffset: 0
   centerHeight: 0.3

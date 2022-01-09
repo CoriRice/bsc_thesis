@@ -58,8 +58,12 @@ public class PlayerController : MonoBehaviour
     
     void PlayerMovement()
     {
-        if(moveDirection != Vector3.zero)
+        if (moveDirection != Vector3.zero)
+        {
             catDirection.rotation = Quaternion.LookRotation(moveDirection);
+            controller.center = moveDirection.normalized * 0.15f + new Vector3(0, 0.2f, 0);
+        }
+            
 
         //----------------------------------------------------------
 

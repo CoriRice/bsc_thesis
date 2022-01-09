@@ -9,7 +9,7 @@ public class HungerBar : MonoBehaviour
 
     public static float hunger;
     public static float val;
-    private float maxHunger = 45;
+    private float maxHunger = 5;
     [SerializeField] private float foodValue;
     
     // Start is called before the first frame update

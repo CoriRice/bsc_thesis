@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class PlayerController : MonoBehaviour
     }
     
     //Variables
+    [SerializeField] private int currLevel;
+    
     [SerializeField] private float moveSpeed;
     [SerializeField] private float walkSpeed;
     [SerializeField] private float runSpeed;
@@ -26,8 +29,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float jumpHeight;
 
     [SerializeField] private int collectibles;
-    [SerializeField] private int foodPoints;
-    [SerializeField] private int startFood;
+
+    [SerializeField] private float centerOffset = 0.15f;
+    [SerializeField] private float centerHeight = 0.2f;
     
     //References
     private CharacterController controller;
@@ -41,6 +45,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = false;
+        
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         catDirection = this.transform.GetChild(0).transform;
@@ -58,10 +64,12 @@ public class PlayerController : MonoBehaviour
     
     void PlayerMovement()
     {
+        if (collectibles == 5) SceneManager.LoadScene(currLevel + 1);
+        
         if (moveDirection != Vector3.zero)
         {
             catDirection.rotation = Quaternion.LookRotation(moveDirection);
-            controller.center = moveDirection.normalized * 0.15f + new Vector3(0, 0.2f, 0);
+            controller.center = moveDirection.normalized * centerOffset + new Vector3(0, centerHeight, 0);
         }
             
 
@@ -132,12 +140,22 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-        anim.SetFloat("Speed", 0.79f);
+        if (!gameObject.name.Equals("Deer"))
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+            anim.SetFloat("Speed", 0.79f);
+        }
+        
     }
 
     public void AddCollectible()
     {
         collectibles++;
+    }
+    
+    IEnumerator DeathDelay() {
+        yield return new WaitForSeconds(1.0f);
+    
+        SceneManager.LoadScene(0);
     }
 }

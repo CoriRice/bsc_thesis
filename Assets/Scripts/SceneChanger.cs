@@ -7,8 +7,14 @@ public class SceneChanger : MonoBehaviour
 {
     [SerializeField] private int changeTo;
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
+        SceneManager.LoadScene(changeTo);
+    }*/
+
+    public void LoadScene()
+    {
+        Debug.Log("clicked");
         SceneManager.LoadScene(changeTo);
     }
 }

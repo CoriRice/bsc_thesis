@@ -5,27 +5,25 @@ using UnityEngine.UI;
 
 public class HungerBar : MonoBehaviour
 {
-    public Slider HungerSlider;
-
+    public Slider hungerSlider;
     public static float hunger;
     public static float val;
-    private float maxHunger = 5;
+    float maxHunger = 10f;
     [SerializeField] private float foodValue;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         hunger = maxHunger;
-        val = foodValue;
     }
 
     // Update is called once per frame
     void Update()
     {
+        val = foodValue;
         Debug.Log("Hunger: " + hunger);
-        HungerSlider.value = hunger;
+        hungerSlider.value = hunger;
         
         if (hunger >= 0) hunger -= 0.3f * Time.deltaTime;
-        
     }
 }

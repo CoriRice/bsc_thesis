@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     }
     
     //Variables
+    [SerializeField] private GameObject text;
     [SerializeField] private int currLevel;
     
     [SerializeField] private float moveSpeed;
@@ -45,7 +46,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.visible = false;
+        if (currLevel > 0) Cursor.visible = false;
         
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
@@ -65,7 +66,8 @@ public class PlayerController : MonoBehaviour
     void PlayerMovement()
     {
         if (collectibles == 5) SceneManager.LoadScene(currLevel + 1);
-        
+        if (HungerBar.hunger < 1) SceneManager.LoadScene(currLevel);
+
         if (moveDirection != Vector3.zero)
         {
             catDirection.rotation = Quaternion.LookRotation(moveDirection);
@@ -151,11 +153,5 @@ public class PlayerController : MonoBehaviour
     public void AddCollectible()
     {
         collectibles++;
-    }
-    
-    IEnumerator DeathDelay() {
-        yield return new WaitForSeconds(1.0f);
-    
-        SceneManager.LoadScene(0);
     }
 }

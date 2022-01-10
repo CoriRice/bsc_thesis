@@ -13187,6 +13187,7 @@ GameObject:
   - component: {fileID: 660172084}
   - component: {fileID: 660172083}
   - component: {fileID: 660172082}
+  - component: {fileID: 660172086}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Player
@@ -13240,7 +13241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8822a58099b094b4f8bbab519975373a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currLevel: 1
+  currLevel: 2
   moveSpeed: 0
   walkSpeed: 1
   runSpeed: 3.5
@@ -13265,6 +13266,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &660172086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660172081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf760794e443a50489baad1fb30c58dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerSlider: {fileID: 1941113943}
+  foodValue: 20
 --- !u!1001 &666367947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27474,7 +27489,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 3ecfed94bef65c74c80fe5d305436d57, type: 2}
+      objectReference: {fileID: 9100000, guid: 4ae0d4ea6a4426641beb40554185f5bd, type: 2}
     - target: {fileID: 195360568403518646, guid: 69b122cc19161bc47908c71cd75dc515,
         type: 3}
       propertyPath: m_Enabled
@@ -40135,6 +40150,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1940850775}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1941113943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 394463623925107640, guid: 2b92de8865fe6ae489571ea34aa0c406,
+    type: 3}
+  m_PrefabInstance: {fileID: 1952316373}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1944035572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40355,6 +40382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 394463623925107640, guid: 2b92de8865fe6ae489571ea34aa0c406,
+        type: 3}
+      propertyPath: m_Value
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 1397968069863184473, guid: 2b92de8865fe6ae489571ea34aa0c406,
         type: 3}

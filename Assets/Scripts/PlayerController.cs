@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
     
     void PlayerMovement()
     {
-        if (collectibles == 5) SceneManager.LoadScene(currLevel + 1);
+        if (currLevel < 4 && collectibles == 5) SceneManager.LoadScene(currLevel + 1);
         if (HungerBar.hunger < 1) SceneManager.LoadScene(currLevel);
 
         if (moveDirection != Vector3.zero)

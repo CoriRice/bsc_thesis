@@ -1,0 +1,23 @@
+-- Collectibles --
+sparkles:			https://freesound.org/people/LS/sounds/39048/
+
+-- Menu --
+feelings of twilight loop:	https://freesound.org/people/ShadyDave/sounds/333811/
+
+-- Intro, Home --
+floating in the midnight breeze:	https://freesound.org/people/FoolBoyMedia/sounds/332323/
+
+-- Home --
+fire small loop:		https://freesound.org/people/PhreaKsAccount/sounds/46273/
+
+-- Laboratory --
+sci fi drone engine loop:	https://freesound.org/people/steaq/sounds/509249/
+sad loop song:			https://freesound.org/people/NoraMeld/sounds/273662/
+
+-- Zoo --
+expression of the mind:		https://freesound.org/people/ShadyDave/sounds/325647/
+
+-- Forest --
+abstract ambient loop:		https://freesound.org/people/ShadyDave/sounds/345838/
+fire medium loop:		https://freesound.org/people/PhreaKsAccount/sounds/46272/
+forest ambient loop:		https://freesound.org/people/Imjeax/sounds/427400/

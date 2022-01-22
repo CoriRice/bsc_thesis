@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,7 +18,8 @@ public class PlayerController : MonoBehaviour
     
     //Variables
     [SerializeField] private GameObject text;
-    [SerializeField] private int currLevel;
+    [SerializeField] private String currLevel;
+    [SerializeField] private String nextLevel;
     
     [SerializeField] private float moveSpeed;
     [SerializeField] private float walkSpeed;
@@ -43,10 +45,11 @@ public class PlayerController : MonoBehaviour
     {
         _instance = this;
     }
+    
     // Start is called before the first frame update
     void Start()
     {
-        if (currLevel > 0) Cursor.visible = false;
+        if (!nextLevel.Equals("Intro")) Cursor.visible = false;
         
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
@@ -65,7 +68,7 @@ public class PlayerController : MonoBehaviour
     
     void PlayerMovement()
     {
-        if (currLevel < 4 && collectibles == 5) SceneManager.LoadScene(currLevel + 1);
+        if (collectibles == 5) SceneManager.LoadScene(nextLevel);
         if (HungerBar.hunger < 1) SceneManager.LoadScene(currLevel);
 
         if (moveDirection != Vector3.zero)

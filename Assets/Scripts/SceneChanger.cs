@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    [SerializeField] private int changeTo;
+    [SerializeField] private String changeTo;
 
     /*private void OnTriggerEnter(Collider other)
     {
@@ -14,7 +15,11 @@ public class SceneChanger : MonoBehaviour
 
     public void LoadScene()
     {
-        Debug.Log("clicked");
         SceneManager.LoadScene(changeTo);
+    }
+
+    public void OnEnable()
+    {
+        LoadScene();
     }
 }

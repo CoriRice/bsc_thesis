@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &348458974
 RectTransform:
   m_ObjectHideFlags: 0
@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: -30}
-  m_SizeDelta: {x: 985.934, y: 188.109}
+  m_AnchoredPosition: {x: -0.000030518, y: -0.007}
+  m_SizeDelta: {x: 985.934, y: 640.728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348458975
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is the third sentence of the story.
+  m_Text: Now it backfired.
 --- !u!222 &348458976
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -219,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &363622511
 RectTransform:
   m_ObjectHideFlags: 0
@@ -236,8 +236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: -30}
-  m_SizeDelta: {x: 985.934, y: 188.109}
+  m_AnchoredPosition: {x: -0.000030518, y: -0.007}
+  m_SizeDelta: {x: 985.934, y: 640.728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363622512
 MonoBehaviour:
@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is the fourth sentence of the story.
+  m_Text: "Let's protect the \nanimals before they \nare gone for good."
 --- !u!222 &363622513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -298,7 +298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &576187730
 RectTransform:
   m_ObjectHideFlags: 0
@@ -315,8 +315,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: -30}
-  m_SizeDelta: {x: 985.934, y: 188.109}
+  m_AnchoredPosition: {x: -0.000030518, y: -0.007}
+  m_SizeDelta: {x: 985.934, y: 640.728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &576187731
 MonoBehaviour:
@@ -351,7 +351,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is the second sentence of the story.
+  m_Text: ...
 --- !u!222 &576187732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -443,7 +443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1253557220
 RectTransform:
   m_ObjectHideFlags: 0
@@ -460,8 +460,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: -30}
-  m_SizeDelta: {x: 985.934, y: 188.109}
+  m_AnchoredPosition: {x: -0.000030518, y: -0.007}
+  m_SizeDelta: {x: 985.934, y: 640.728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253557221
 MonoBehaviour:
@@ -496,7 +496,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: This is the first sentence of the story.
+  m_Text: "Humanity has wiped out\n60% of animal populations \nsince the 70's ..."
 --- !u!222 &1253557222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -534,13 +534,17 @@ PlayableDirector:
   m_GameObject: {fileID: 1337958518}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 37f487fa5682f5d4db3c56af2c5b5291, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: dfa3b07d98787f44c8b3675c742ef3a4, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 4405536939403997696, guid: 37f487fa5682f5d4db3c56af2c5b5291, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6498916939997358412, guid: 37f487fa5682f5d4db3c56af2c5b5291, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 4405536939403997696, guid: dfa3b07d98787f44c8b3675c742ef3a4, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:
@@ -550,11 +554,17 @@ PlayableDirector:
     - 443e567c79352274caa5f7aad87b00a6: {fileID: 0}
     - 4c9266bbae5fe13468ae0689d9c47536: {fileID: 576187729}
     - c091aeffdfc8123499dc3a876c4a5975: {fileID: 0}
+    - 51679e6ed3b1b8f4fae0b777eeea9585: {fileID: 363622510}
+    - 4cbf0bfe9a0d1e845be775eccca9a59d: {fileID: 1253557219}
+    - 0acf638f5ca37884c95417c243f126e3: {fileID: 1826240898}
+    - c6edd0a2db977ea4cb5ea0ab18a4fab0: {fileID: 348458973}
+    - 6f20825d50ab45a428c3e0a5ff7c4782: {fileID: 576187729}
     - 4039467f18d67324993e02b5194cbec5: {fileID: 363622510}
     - 2223588f17735b5479d5af7ebe556491: {fileID: 0}
     - 60ec8efc2ace76e4d9d872501ac6225d: {fileID: 0}
     - e401ab3f30cfd144e9da54eb7dbdfc52: {fileID: 0}
     - 9499863671769fa45b034cfe59b71170: {fileID: 1253557219}
+    - 9814a56117480c342a7ffec7d928efde: {fileID: 1253557219}
     - 90bc60c7afcd99e408852fdc39f4d43a: {fileID: 0}
 --- !u!114 &1337958520
 MonoBehaviour:
@@ -865,7 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6dbbff77e7fc91419e8846f0bce0f5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTo: 01 - Home
+  changeTo: 00 - Menu
 --- !u!1 &1938784847
 GameObject:
   m_ObjectHideFlags: 0

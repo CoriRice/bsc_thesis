@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +18,6 @@ public class PlayerController : MonoBehaviour
     }
     
     //Variables
-    [SerializeField] private GameObject text;
     [SerializeField] private String currLevel;
     [SerializeField] private String nextLevel;
     
@@ -35,11 +35,13 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float centerOffset = 0.15f;
     [SerializeField] private float centerHeight = 0.2f;
+    [SerializeField] private GameObject[] texts;
     
     //References
     private CharacterController controller;
     private Animator anim;
     private Transform catDirection;
+    private bool jumped;
 
     void Awake()
     {
@@ -56,6 +58,7 @@ public class PlayerController : MonoBehaviour
         catDirection = this.transform.GetChild(0).transform;
 
         collectibles = 0;
+        texts[0].SetActive(true);
     }
 
     // Update is called once per frame
@@ -106,12 +109,15 @@ public class PlayerController : MonoBehaviour
                 Idle();
             }
 
-            moveDirection *= moveSpeed;
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Jump();
             }
+            
+            moveDirection *= moveSpeed;
+        } else if (jumped)
+        {
+            moveDirection *= moveSpeed;
         } else
         {
             anim.SetFloat("Speed", 0.79f);
@@ -149,12 +155,15 @@ public class PlayerController : MonoBehaviour
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
             anim.SetFloat("Speed", 0.79f);
+            jumped = true;
         }
         
     }
 
     public void AddCollectible()
     {
+        texts[collectibles].SetActive(false);
         collectibles++;
+        texts[collectibles].SetActive(true);
     }
 }

@@ -23,8 +23,8 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerController.Instance.AddCollectible();
             Destroy(this.gameObject);
+            PlayerController.Instance.AddCollectible();
         }
     }
 }

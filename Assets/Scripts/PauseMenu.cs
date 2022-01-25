@@ -38,6 +38,7 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         ResumeGame();
+        Cursor.visible = true;
         SceneManager.LoadScene("00 - Menu");
     }
 

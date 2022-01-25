@@ -15,6 +15,7 @@ public class SceneChanger : MonoBehaviour
 
     public void LoadScene()
     {
+        Cursor.visible = changeTo.Equals("00 - Menu");
         SceneManager.LoadScene(changeTo);
     }
 

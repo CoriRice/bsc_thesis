@@ -21,9 +21,21 @@ EditorBuildSettings:
     path: Assets/Scenes/05 - Zoo.unity
     guid: f940e1a471b8ba64a99b436277b53f14
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
-    guid: 3434e7b7914d1114c82555c46c9684de
-  - enabled: 1
     path: Assets/Scenes/Outro.unity
     guid: 57bf585a6d089a540974231bbe000656
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 3064ec976e30b7a4e9cdaa4eb979a329
+  - enabled: 1
+    path: Assets/Scenes/Chapter1.unity
+    guid: 177855ab946ff0e449ce96057ae51e91
+  - enabled: 1
+    path: Assets/Scenes/Chapter2.unity
+    guid: d9a55920f58a1d945a4431ca45f694a7
+  - enabled: 1
+    path: Assets/Scenes/Chapter3.unity
+    guid: b76643920a4b1eb4689aae1603ce5095
+  - enabled: 1
+    path: Assets/Scenes/Chapter4.unity
+    guid: b506f1b8285e5cf4d8890f94d2870849
   m_configObjects: {}

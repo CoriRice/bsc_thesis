@@ -384,8 +384,7 @@ PrefabInstance:
     - target: {fileID: 35810222834035921, guid: 2bacbddfa9516b044a723bc81bec741f,
         type: 3}
       propertyPath: fullText
-      value: So, they just left without extinguishing their camp fire... ? PEOPLE!
-        YOUR ACTIONS HAVE CONSEQUENCES!
+      value: 'Where are all my friends? I could have sworn there were here somewhere. '
       objectReference: {fileID: 0}
     - target: {fileID: 394463622732799941, guid: 2bacbddfa9516b044a723bc81bec741f,
         type: 3}
@@ -526,6 +525,17 @@ PrefabInstance:
         type: 3}
       propertyPath: fullText
       value: 'Another forest fire?! Ugh, something isn''t right here. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369960968015336737, guid: 2bacbddfa9516b044a723bc81bec741f,
+        type: 3}
+      propertyPath: fullText
+      value: "Is it because of those pesky two-legged creatures? It sure has to be\u2026
+        PEOPLE! YOUR ACTIONS HAVE CONSEQUENCES!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579981416523712109, guid: 2bacbddfa9516b044a723bc81bec741f,
+        type: 3}
+      propertyPath: fullText
+      value: "Hold up, the fire seems to be worse this time\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 5111992157201869608, guid: 2bacbddfa9516b044a723bc81bec741f,
         type: 3}

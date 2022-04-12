@@ -249,7 +249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Let's find it out ourselves!
+  m_Text: How much trouble are we actually in? Let's find it out ourselves!
 --- !u!222 &530856057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: And its inhabitants?
+  m_Text: 'This may not seem like much, but think about it this way:'
 --- !u!222 &628773830
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -473,9 +473,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'How did humanity
-
-    contribute to the world?'
+  m_Text: The average temperature on the surface of the planet has already increased
+    0.95 degrees celsius since 1880.
 --- !u!222 &848050622
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -700,11 +699,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'What kind of impact
-
-    had mankind on the
-
-    planet''s wellbeing?'
+  m_Text: The heat from human emissions is roughly equal to 400k Hiroshima atomic
+    bombs exploding across the planet every single day.
 --- !u!222 &1264957820
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -17425,10 +17425,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3009230062744375236, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: Find out what the animals think by collecting the origami.
+      objectReference: {fileID: 0}
     - target: {fileID: 3795155718605957881, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4623613759214779829, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: "Huh? That\u2019s odd\u2026 why is it still so hot after weeks of summer\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 4634638528570450999, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
@@ -17440,21 +17450,37 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6615891505786141875, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: "But\u2026 what about those animals that don\u2019t have homes to cool
+        down in? :( "
+      objectReference: {fileID: 0}
     - target: {fileID: 7638599000455960079, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: fullText
-      value: Please, it's not funny anymore... I will behave from now on, please
-        come back...
+      value: "Summers seem to be longer now\u2026 THAT MEANS I CAN GO OUT MORE OFTEN. "
       objectReference: {fileID: 0}
     - target: {fileID: 7813338586311547560, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8884666934586099011, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: "I\u2019ve heard my masters speak about longer summers, maybe they were
+        onto something! "
+      objectReference: {fileID: 0}
     - target: {fileID: 8972457490721360906, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109741918281020504, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: "I have to find out how they feel about this\u2026"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 015d0f0c20cb1a8429bce47b3990155b, type: 3}

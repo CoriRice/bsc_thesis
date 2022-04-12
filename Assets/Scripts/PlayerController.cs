@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(infoText());
         if (!nextLevel.Equals("Intro")) Cursor.visible = false;
         
         controller = GetComponent<CharacterController>();
@@ -165,5 +166,10 @@ public class PlayerController : MonoBehaviour
         texts[collectibles].SetActive(false);
         collectibles++;
         texts[collectibles].SetActive(true);
+    }
+
+    IEnumerator infoText()
+    {
+        // TODO
     }
 }

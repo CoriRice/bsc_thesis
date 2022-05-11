@@ -249,7 +249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: How much trouble are we actually in? Let's find it out ourselves!
+  m_Text: "How much trouble are we in? Let\u2019s find out what the animals are thinking."
 --- !u!222 &530856057
 CanvasRenderer:
   m_ObjectHideFlags: 0

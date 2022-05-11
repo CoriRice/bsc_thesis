@@ -176,7 +176,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '
 
-    Exploitation'
+    Fragmentation'
 --- !u!222 &258799503
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6dbbff77e7fc91419e8846f0bce0f5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTo: 02 - Laboratory
+  changeTo: 06 - North
 --- !u!1 &1938784847
 GameObject:
   m_ObjectHideFlags: 0

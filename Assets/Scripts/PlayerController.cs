@@ -36,6 +36,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float centerOffset = 0.15f;
     [SerializeField] private float centerHeight = 0.2f;
     [SerializeField] private GameObject[] texts;
+    [SerializeField] private GameObject[] eduTexts;
+    private int[] eduTextIndex = { 0, 1, 1, 2, 2 };
     
     //References
     private CharacterController controller;
@@ -74,6 +76,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collectibles == 5) SceneManager.LoadScene(nextLevel);
         if (HungerBar.hunger < 1) SceneManager.LoadScene(currLevel);
+        if (gameObject.name.Equals("Polar Bear") && gameObject.transform.position.y < -1.5) SceneManager.LoadScene(currLevel);
 
         if (moveDirection != Vector3.zero)
         {
@@ -164,12 +167,17 @@ public class PlayerController : MonoBehaviour
     public void AddCollectible()
     {
         texts[collectibles].SetActive(false);
-        collectibles++;
+        eduTexts[eduTextIndex[collectibles++]].SetActive(false);
         texts[collectibles].SetActive(true);
-    }
+        eduTexts[eduTextIndex[collectibles]].SetActive(true);
+        }
 
-    /*IEnumerator infoText()
+    public void changeEduText()
     {
-        // TODO
-    }*/
+        if (collectibles % 2 == 0)
+        {
+            eduTexts[collectibles - 2].SetActive(false);
+            eduTexts[collectibles - 1].SetActive(true);
+        }
+    }
 }

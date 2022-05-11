@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Now it backfired.
+  m_Text: "Climate change could \nbe irreversible by 2030."
 --- !u!222 &348458976
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Let's protect the \nanimals before they \nare gone for good."
+  m_Text: "Let's protect the \nearth before it \nis lost for good."
 --- !u!222 &363622513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -496,7 +496,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Humanity has wiped out\n60% of animal populations \nsince the 70's ..."
+  m_Text: "Global warming is breaking new records every year,\nand it\u2019s showing
+    no signs\nof slowing down."
 --- !u!222 &1253557222
 CanvasRenderer:
   m_ObjectHideFlags: 0

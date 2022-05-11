@@ -1536,6 +1536,7 @@ RectTransform:
   - {fileID: 2748021877941460561}
   - {fileID: 3917459627373557896}
   - {fileID: 8351677366107320859}
+  - {fileID: 1533636138350022389}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2469,7 +2470,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Find out what happened by collecting the origami.
+  m_Text: Find out what the animals think and get to the next level by collecting
+    the origami.
 --- !u!1 &7743713381947848487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2953,3 +2955,183 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &5984759783190844488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1397968069863184477}
+    m_Modifications:
+    - target: {fileID: 224299285679560921, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.10196079
+      objectReference: {fileID: 0}
+    - target: {fileID: 224299285679560921, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.49411768
+      objectReference: {fileID: 0}
+    - target: {fileID: 224299285679560921, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 816016400573782009, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Climate is the average weather in a place over many years. Climate
+        change is a shift in those average conditions. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414485046662637988, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Studies found that climate change is making summers hotter and longer,
+        while shrinking the three other seasons. It affects human health and the
+        environment. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414485046662637988, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709959724632545126, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Name
+      value: EduText
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 276.5652
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 213.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -199
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5910184169328415296, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7023037375404430257, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145580708325031411, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_Text
+      value: The main cause of climate change is burning fossil fuels such as oil,
+        gas, and coal. When burnt, fossil fuels release carbon dioxide into the air,
+        causing the planet to heat up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7145580708325031411, guid: 47b1dbaca9417ac45a529162bd933682,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 23
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47b1dbaca9417ac45a529162bd933682, type: 3}
+--- !u!224 &1533636138350022389 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5063931237029927613, guid: 47b1dbaca9417ac45a529162bd933682,
+    type: 3}
+  m_PrefabInstance: {fileID: 5984759783190844488}
+  m_PrefabAsset: {fileID: 0}

@@ -21,3 +21,6 @@ expression of the mind:		https://freesound.org/people/ShadyDave/sounds/325647/
 abstract ambient loop:		https://freesound.org/people/ShadyDave/sounds/345838/
 fire medium loop:		https://freesound.org/people/PhreaKsAccount/sounds/46272/
 forest ambient loop:		https://freesound.org/people/Imjeax/sounds/427400/
+
+-- North --
+ambient wave 60.flac		https://freesound.org/people/Erokia/sounds/567150/

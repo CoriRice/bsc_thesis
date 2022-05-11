@@ -2811,6 +2811,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 0.47, z: 0.32}
   m_Center: {x: 0.003289925, y: -0.00018779468, z: 0.028529966}
+--- !u!1 &158417003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 75174023093765640, guid: 015d0f0c20cb1a8429bce47b3990155b,
+    type: 3}
+  m_PrefabInstance: {fileID: 827464811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &160432306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17280,10 +17286,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 75174023093765640, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 96463796107763214, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.64675903
+      objectReference: {fileID: 0}
     - target: {fileID: 211516442135111302, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 352073906556696532, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: Climate is the average weather in a place over many years. Climate change
+        is a shift in those average conditions.
       objectReference: {fileID: 0}
     - target: {fileID: 394463622732799941, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
@@ -17310,7 +17332,22 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 976835059727082462, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185950966880568371, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1245751189737747616, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308784553135942257, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -17425,15 +17462,63 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2403333291515014016, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458024707937680262, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 297.359
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458024707937680262, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 32.092
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458024707937680262, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 115.021
+      objectReference: {fileID: 0}
+    - target: {fileID: 2458024707937680262, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16.046
+      objectReference: {fileID: 0}
     - target: {fileID: 3009230062744375236, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_Text
-      value: Find out what the animals think by collecting the origami.
+      value: Find out what the animals think and get to the next level by collecting
+        the origami.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468915875027528123, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: The main cause of climate change is burning fossil fuels such as oil,
+        gas, and coal. It releases carbon dioxide into the air, causing the planet
+        to heat up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468915875027528123, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603522637721300646, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3795155718605957881, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4030824089229357635, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.00015258789
       objectReference: {fileID: 0}
     - target: {fileID: 4623613759214779829, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
@@ -17444,6 +17529,52 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709853429157301704, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: 'The main cause of climate change is burning fossil fuels such as oil,
+        gas, and coal. When burnt, fossil fuels release carbon dioxide into the air,
+        causing the planet to heat up. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934855842669952211, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628388029911781476, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Studies found that climate change is making summers hotter and longer,
+        while shrinking the three other seasons. This affects human health and agriculture. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628388029911781476, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769584383118712452, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: 'Studies found that climate change is making summers hotter and longer,
+        while shrinking the three other seasons. Scientists say the irregularities
+        could have a range of serious implications, affecting human health and agriculture
+        to the environment. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786829182916955801, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874691128745736572, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 235.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5874691128745736572, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -117.560005
       objectReference: {fileID: 0}
     - target: {fileID: 5925015098713673694, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
@@ -17456,14 +17587,75 @@ PrefabInstance:
       value: "But\u2026 what about those animals that don\u2019t have homes to cool
         down in? :( "
       objectReference: {fileID: 0}
+    - target: {fileID: 7043684216329106488, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587121635428999858, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 227.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587121635428999858, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 153.866
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587121635428999858, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 17.203
+      objectReference: {fileID: 0}
     - target: {fileID: 7638599000455960079, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: fullText
       value: "Summers seem to be longer now\u2026 THAT MEANS I CAN GO OUT MORE OFTEN. "
       objectReference: {fileID: 0}
+    - target: {fileID: 7651048869980091750, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: DID YOU KNOW?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651048869980091750, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 7813338586311547560, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7948085413963103724, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Climate change is making summers hotter and longer, while shrinking
+        the three other seasons. It affects human health and the environment. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057071330951130122, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 235.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8057071330951130122, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -117.560005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650422311523823161, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807368565391930686, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: fullText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807368565391930686, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8884666934586099011, guid: 015d0f0c20cb1a8429bce47b3990155b,
@@ -17477,12 +17669,26 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9059022911317411811, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 235.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059022911317411811, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -117.560005
+      objectReference: {fileID: 0}
     - target: {fileID: 9109741918281020504, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: fullText
       value: "I have to find out how they feel about this\u2026"
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 492201959733062867, guid: 015d0f0c20cb1a8429bce47b3990155b, type: 3}
+    - {fileID: 4445733041227224101, guid: 015d0f0c20cb1a8429bce47b3990155b, type: 3}
+    - {fileID: 3242317358004291433, guid: 015d0f0c20cb1a8429bce47b3990155b, type: 3}
+    - {fileID: 5180811370714439192, guid: 015d0f0c20cb1a8429bce47b3990155b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 015d0f0c20cb1a8429bce47b3990155b, type: 3}
 --- !u!1001 &828358559
 PrefabInstance:
@@ -27443,6 +27649,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5aedd7c0ef8da864daeefeb610f1b7b3, type: 3}
+--- !u!1 &1388995160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 932547379870726908, guid: 015d0f0c20cb1a8429bce47b3990155b,
+    type: 3}
+  m_PrefabInstance: {fileID: 827464811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1395709192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31872,6 +32084,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1575514444}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1580934968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3636925086950721529, guid: 015d0f0c20cb1a8429bce47b3990155b,
+    type: 3}
+  m_PrefabInstance: {fileID: 827464811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1582181456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35584,20 +35802,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0.0010920953, y: 0.031751435, z: -0.010298371}
---- !u!1 &1759248928 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8237260755605903599, guid: 6f77dd9ed04c9f64386af7b921684c2b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1952904880}
-  m_PrefabAsset: {fileID: 0}
---- !u!81 &1759248932
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759248928}
-  m_Enabled: 1
 --- !u!1001 &1768950380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39516,7 +39720,7 @@ PrefabInstance:
     - target: {fileID: 8237260755356515016, guid: 6f77dd9ed04c9f64386af7b921684c2b,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8237260755356515017, guid: 6f77dd9ed04c9f64386af7b921684c2b,
         type: 3}
@@ -39670,6 +39874,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
         type: 3}
+      propertyPath: eduTexts.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
+        type: 3}
       propertyPath: texts.Array.data[0]
       value: 
       objectReference: {fileID: 1349449210}
@@ -39693,6 +39902,21 @@ PrefabInstance:
       propertyPath: texts.Array.data[4]
       value: 
       objectReference: {fileID: 1029203053}
+    - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
+        type: 3}
+      propertyPath: eduTexts.Array.data[0]
+      value: 
+      objectReference: {fileID: 1388995160}
+    - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
+        type: 3}
+      propertyPath: eduTexts.Array.data[1]
+      value: 
+      objectReference: {fileID: 158417003}
+    - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
+        type: 3}
+      propertyPath: eduTexts.Array.data[2]
+      value: 
+      objectReference: {fileID: 1580934968}
     - target: {fileID: 8237260756010473166, guid: 6f77dd9ed04c9f64386af7b921684c2b,
         type: 3}
       propertyPath: m_Constraints

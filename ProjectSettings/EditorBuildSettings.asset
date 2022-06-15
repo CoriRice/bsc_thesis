@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/03 - Forest.unity
     guid: f55ba263c74cce144915b3169eb1b2cc
   - enabled: 1
-    path: Assets/Scenes/05 - Zoo.unity
+    path: Assets/Scenes/old/05 - Zoo.unity
     guid: f940e1a471b8ba64a99b436277b53f14
   - enabled: 1
     path: Assets/Scenes/Outro.unity
@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter3.unity
     guid: b76643920a4b1eb4689aae1603ce5095
+  - enabled: 1
+    path: Assets/Scenes/06 - North.unity
+    guid: a671118c28f22544ba0c9f871967f32c
   - enabled: 1
     path: Assets/Scenes/Chapter4.unity
     guid: b506f1b8285e5cf4d8890f94d2870849

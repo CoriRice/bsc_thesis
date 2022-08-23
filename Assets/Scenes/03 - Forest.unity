@@ -384,7 +384,7 @@ PrefabInstance:
     - target: {fileID: 35810222834035921, guid: 2bacbddfa9516b044a723bc81bec741f,
         type: 3}
       propertyPath: fullText
-      value: 'Where are all my friends? I could have sworn there were here somewhere. '
+      value: 'Where are all my friends? I could have sworn they were here somewhere. '
       objectReference: {fileID: 0}
     - target: {fileID: 394463622732799941, guid: 2bacbddfa9516b044a723bc81bec741f,
         type: 3}

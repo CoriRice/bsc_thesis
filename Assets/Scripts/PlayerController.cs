@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -37,8 +38,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float centerHeight = 0.2f;
     [SerializeField] private GameObject[] texts;
     [SerializeField] private GameObject[] eduTexts;
+    [SerializeField] private GameObject eduText;
     private int[] eduTextIndex = { 0, 1, 1, 2, 2 };
-    
+
     //References
     private CharacterController controller;
     private Animator anim;
@@ -170,14 +172,5 @@ public class PlayerController : MonoBehaviour
         eduTexts[eduTextIndex[collectibles++]].SetActive(false);
         texts[collectibles].SetActive(true);
         eduTexts[eduTextIndex[collectibles]].SetActive(true);
-        }
-
-    public void changeEduText()
-    {
-        if (collectibles % 2 == 0)
-        {
-            eduTexts[collectibles - 2].SetActive(false);
-            eduTexts[collectibles - 1].SetActive(true);
-        }
     }
 }

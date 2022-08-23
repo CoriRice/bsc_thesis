@@ -17581,6 +17581,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6152540288185860176, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6152540288185860176, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6152540288185860176, guid: 015d0f0c20cb1a8429bce47b3990155b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6615891505786141875, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: fullText
@@ -17661,7 +17676,7 @@ PrefabInstance:
     - target: {fileID: 8884666934586099011, guid: 015d0f0c20cb1a8429bce47b3990155b,
         type: 3}
       propertyPath: fullText
-      value: "I\u2019ve heard my masters speak about longer summers, maybe they were
+      value: "I\u2019ve heard my owners speak about longer summers, maybe they were
         onto something! "
       objectReference: {fileID: 0}
     - target: {fileID: 8972457490721360906, guid: 015d0f0c20cb1a8429bce47b3990155b,
@@ -20331,6 +20346,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3007098647601589064, guid: 0d11b5c3f89d6964382d808d2a82e21c,
     type: 3}
   m_PrefabInstance: {fileID: 945833675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &954339852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8429770501337776064, guid: 015d0f0c20cb1a8429bce47b3990155b,
+    type: 3}
+  m_PrefabInstance: {fileID: 827464811}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &970730631
 PrefabInstance:
@@ -39822,6 +39843,11 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
+        type: 3}
+      propertyPath: eduText
+      value: 
+      objectReference: {fileID: 954339852}
     - target: {fileID: 8237260756010473165, guid: 6f77dd9ed04c9f64386af7b921684c2b,
         type: 3}
       propertyPath: oldText
